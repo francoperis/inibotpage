@@ -48,7 +48,7 @@ html {
 .figure-grua img {
   display: flex;
   flex-direction: row;
-  width: 500px;
+  width: 650px;
 }
 
 .tecno {
@@ -187,4 +187,8 @@ html {
   background-color: #001a46;
   width: 100vw;
   height: 10vh;
+}
+.nav-main li {
+  display: inline-block;
+  list-style: none;
 }
