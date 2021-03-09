@@ -10,7 +10,6 @@ html {
   width: 100vw;
   height: 100vh;
 }
-
 .main-header__child {
   display: flex;
   flex-flow: column wrap;
@@ -21,14 +20,22 @@ html {
   display: none;
 }
 
-.banner {
+.hero {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
 }
 
-.banner h1 {
+.hero h1 {
   font-size: 4rem;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+}
+.figure-grua {
+  display: flex;
+  height: 50vh;
+  align-items: center;
 }
 .tecno {
   background-color: #d1ebff;
