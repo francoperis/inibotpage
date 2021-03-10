@@ -18,7 +18,7 @@ html {
   font-size: 2rem;
   padding: 5px 30px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .main-header {
@@ -43,7 +43,7 @@ html {
 }
 .figure-grua img {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   width: 650px;
 }
 
@@ -87,11 +87,11 @@ html {
 .banner {
   flex: 1;
   display: flex;
-  padding: 0 10%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 100vh;
 }
+
 .about-us {
   display: flex;
   flex-wrap: wrap;
@@ -102,6 +102,7 @@ html {
   background-color: #ffffff;
   width: 100vw;
   height: 80vh;
+  font-weight: 100;
 }
 .about-us p {
   font-size: 2rem;
@@ -129,8 +130,8 @@ html {
   align-items: center;
 }
 .form-image img {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   padding: 60px;
 }
 .form-action {
@@ -168,13 +169,20 @@ html {
   justify-content: space-around;
 }
 .footer-ul a img {
-  width: 110px;
-  height: 110px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
 }
 .footer p {
   font-size: 3rem;
   color: #001a46;
+}
+.footer-ul {
+  display: flex;
+  flex-direction: row;
+}
+.footer-ul li {
+  list-style: none;
 }
 .footer-ul a {
   margin-left: 10px;
@@ -197,5 +205,5 @@ html {
 .nav-main {
   display: flex;
   width: 50vw;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
