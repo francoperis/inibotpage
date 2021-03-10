@@ -7,10 +7,8 @@
     <title>Inibot</title>
     <link rel="stylesheet" href="./style/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/phone.css" media="only screen and (max-width:600px)">
   <body>
     <header class="main-header">
@@ -20,14 +18,16 @@
             alt="logo_inibot"
             width="150"
           />
-        <nav class="navbar">
-          <ul class="nav-main">
-            <!---->
-            <li><a href="#profile-banner" class="nav-main__item">ABOUT</a></li>
-            <li><a href="#profile-tecno" class="nav-main__item">NOSOTROS</a></li>
-            <li><a href="#profile-form" class="nav-main__item">FORMULARIO</a></li>
-          </ul>
-        </nav>
+        <div>
+          <nav class="navbar">
+            <ul class="nav-main">
+              <!---->
+              <li><a href="#profile-banner" class="nav-main__item">ABOUT</a></li>
+              <li><a href="#profile-tecno" class="nav-main__item">NOSOTROS</a></li>
+              <li><a href="#profile-form" class="nav-main__item">FORMULARIO</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <div class="hero">
@@ -37,7 +37,6 @@
           DE SOFTWARE
         </h1>
       </div>
-      <div>
         <figure class="figure-grua">
           <img src="./landinginibot-master/images/grua.png" alt="grua-png" />
         </figure>
@@ -91,9 +90,9 @@
       <div class="about-us">
         <h2 class="about-us__h2" id="profile-about__us">SOBRE NOSOTROS</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fugit
-          recusandae, praesentium sequi molestias quod eius nostrum iusto
-          possimus neque veniam quae! Consequatur, iure? Commodi aspernatur sint
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fugit
+            recusandae, praesentium sequi molestias quod eius nostrum iusto
+            possimus neque veniam quae! Consequatur, iure? Commodi aspernatur sint
         </p>
       </div>
       <div class="form" id="profile-form">
@@ -107,7 +106,7 @@
             <input
               type="text"
               id="name"
-              placeholder="Su nombre"
+              placeholder="Nombre"
               class="text"
               required
             />
@@ -116,7 +115,7 @@
             <input
               type="email"
               id="email"
-              placeholder="Su email"
+              placeholder="Email"
               class="text"
               required
             /><br />
@@ -124,7 +123,7 @@
             <textarea
               type="textarea"
               id="message"
-              placeholder="Su mensaje"
+              placeholder="Mensaje"
               minlength="15"
               class="msg"
               required
@@ -140,15 +139,21 @@
       </div>
       <div>
         <ul class="footer-ul">
-          <a href="">
-            <img src="./landinginibot-master/images/fran.png" alt="varvlab" />
-          </a>
-          <a href=""
-            ><img src="./landinginibot-master/images/neoyoga.png" alt="neoyoga"
-          /></a>
-          <a href=""
-            ><img src="./landinginibot-master/images/tucancha.jpg" alt="tucancha"
-          /></a>
+          <li>
+            <a href="">
+              <img src="./landinginibot-master/images/fran.png" alt="varvlab" />
+            </a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="./landinginibot-master/images/neoyoga.png" alt="neoyoga"
+            /></a>
+          </li>  
+          <li>
+            <a href=""
+              ><img src="./landinginibot-master/images/tucancha.jpg" alt="tucancha"
+            /></a>
+          </li>
         </ul>
       </div>  
       <div class="pie-footer"></div>
