@@ -13,7 +13,6 @@ html {
 .main-header__child {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
 }
 
 .navbar {
@@ -24,18 +23,24 @@ html {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  height: 100%;
+  align-items: center;
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   display: flex;
   align-items: center;
   height: 50vh;
 }
 .figure-grua {
   display: flex;
-  height: 50vh;
+  height: 80vh;
   align-items: center;
+}
+.figure-grua img {
+  display: flex;
+  height: 400px;
 }
 .tecno {
   background-color: #d1ebff;
@@ -46,7 +51,7 @@ html {
 }
 .about-us {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .form {
   display: flex;
@@ -57,10 +62,32 @@ html {
   width: 200px;
   height: 200px;
   padding: 0;
+  margin-bottom: 4rem;
 }
 .text {
   width: 100%;
 }
 .msg {
   width: 100%;
+}
+.footer-ul li a img {
+  width: 100px;
+  height: 100px;
+}
+.figure {
+  display: flex;
+  align-items: center;
+}
+.tecno-container__ul {
+  display: flex;
+}
+.tecno {
+  padding: 15px 0;
+}
+.tecno-container__ul li {
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
 }
